@@ -1,0 +1,53 @@
+#container {
+  padding: 50px;
+  width: 900px;
+}
+
+#book {
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+
+#book-info {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.full {
+  width: 100%;
+}
+
+#review-container {
+  margin-top: 40px;
+  width: 100%;
+  border: 2px dotted gainsboro;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.photo-container {
+  width: 10%;
+}
+
+.photo {
+  margin: 10px;
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+}
+
+.comment {
+  width: 80%;
+}
+
+#review-text {
+  text-align: center;
+}
