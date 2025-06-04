@@ -12,7 +12,7 @@ export function Book() {
           <div className='full'>
             <div>Information:</div>
             <div>Genre: <span>Historical Fiction</span></div>
-            <div>Pages: 420</div>
+            <div>Pages: <span>420</span></div>
           </div>
         </div>
       </div>
@@ -43,9 +43,39 @@ export function Book() {
   );
 }
 
+export function Album() {
+  return (
+    <div id='album-container'>
+      <h1>Tool</h1>
+      <img id='tool-logo' src="Tool.png"/>
+      <ul className='members'>
+        <div>Members</div>
+        <li>Maynard James Keenan</li>
+        <li>Adam Jones</li>
+        <li>Danny Carey</li>
+        <li>Justin Chancellor</li>
+      </ul>
+      <div id='albums'>
+        <h1>Albums</h1>
+        <ul className='albums-list'>
+          <li><img src="Tool-Undertow.jpg"/><div>Undertow</div></li>
+          <li><img src="Aenima.jpg"/><div>Ænima</div></li>
+          <li><img src="Tool-Lateralus.jpg"/><div>Lateralus</div></li>
+          <li><img src="10000Days.jpg"/><div>10,000 Days</div></li>
+          <li><img src="Tool-Fear-Inoculum.png"/><div>Fear Inoculum</div></li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
 function App() {
   return (
-    <Book></Book>
+    <main>
+      <Book></Book>
+      <div className='line'></div>
+      <Album></Album>
+    </main>
   );
 }
 

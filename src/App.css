@@ -1,6 +1,14 @@
+main {
+  display: flex;
+}
+
 #container {
-  padding: 50px;
+  padding: 20px;
   width: 900px;
+}
+
+span {
+  font-weight: 300;
 }
 
 #book {
@@ -50,4 +58,66 @@
 
 #review-text {
   text-align: center;
+}
+
+.line {
+  height: 1200px;
+  width: 1px;
+  background-color: black;
+}
+
+#album-container {
+  background-color: black;
+  padding: 20px;
+  width: 920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#album-container h1 {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 80px;
+}
+
+.members {
+  list-style: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.members div {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+#albums {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.albums-list {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+li img {
+  width: 120px;
+}
+
+li div {
+  color: white;
+  text-align: center;
+}
+
+#tool-logo {
+  margin-bottom: 100px;
+  width: 400px;
 }
